@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Arm JS-only styles before paint to avoid a reveal flash -->
+  <script>document.documentElement.className += " js";</script>
+  <title>Skinn Silk Rose Eau de Parfum — Made to Stay on Your Skin | Titan</title>
+  <meta name="description" content="Skinn Silk Rose Eau de Parfum by Titan. A rich rose fragrance made to stay on your skin. Choose your edition and size — from ₹1,499. Reserve yours today." />
+  <meta name="theme-color" content="#0b2a45" />
+
+  <!-- Open Graph for Facebook ads -->
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="Skinn Silk Rose — Made to Stay on Your Skin" />
+  <meta property="og:description" content="A rich rose Eau de Parfum by Titan. Choose your edition and size from ₹1,499. Reserve yours today." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Fonts: Cormorant Garamond (display) + Jost (body/ui) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 (CDN; SRI omitted intentionally — see note) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Custom styles -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============ ANNOUNCEMENT BAR ============ -->
+  <div class="announce" id="top">
+    <div class="announce__track">
+      <span>Complimentary shipping across India</span><span class="dot">•</span>
+      <span>Introductory launch price live</span><span class="dot">•</span>
+      <span>Signature rose Eau de Parfum by Titan</span><span class="dot">•</span>
+      <span>Complimentary shipping across India</span><span class="dot">•</span>
+      <span>Introductory launch price live</span><span class="dot">•</span>
+      <span>Signature rose Eau de Parfum by Titan</span><span class="dot">•</span>
+    </div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar navbar-expand-lg site-nav" id="siteNav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#top">
+        <span class="brand__mark" aria-hidden="true">S</span>
+        <span class="brand__word">SKINN</span>
+        <span class="brand__by">by Titan</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav-burger"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#collection">Collection</a></li>
+          <li class="nav-item"><a class="nav-link" href="#compose">Compose</a></li>
+          <li class="nav-item"><a class="nav-link" href="#howto">How to wear</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        </ul>
+        <a href="#reserve" class="btn btn-gold nav-cta">Reserve yours</a>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 hero__copy">
+          <p class="eyebrow reveal">Skinn · Silk Rose Eau de Parfum</p>
+          <h1 class="hero__title reveal">Made to stay<br />on your <em>skin.</em></h1>
+          <p class="hero__lede reveal">A rich rose accord — luminous petals, warm woods and soft musk — composed to open beautifully and settle close, staying with you long after the spray.</p>
+          <div class="hero__cta reveal">
+            <a href="#reserve" class="btn btn-gold btn-lg">Reserve yours</a>
+            <a href="#collection" class="btn btn-outline-light btn-lg">Explore the collection <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero__trust reveal">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>4.9 / 5 from 25,000+ wearers</span>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <figure class="hero__model reveal">
+            <img src="assets/girl-holding-skinn.png"
+                 alt="Woman holding a red Skinn perfume bottle"
+                 loading="eager" />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <a href="#signature" class="hero__scroll" aria-label="Scroll to learn more">
+      <span></span>
+    </a>
+  </header>
+
+   <!-- ============ TRUST + SERVICES ============ -->
+  <section class="trust-services" aria-labelledby="trustTitle">
+    <div class="container">
+      <div class="trust-services__proof">
+        <div>
+          <p class="eyebrow">Chosen with confidence</p>
+          <h2 id="trustTitle">Trusted by fragrance lovers<br />across India.</h2>
+        </div>
+        <div class="trust-services__metric">
+          <strong>4.9</strong>
+          <span class="stars" aria-label="4.9 out of 5 stars">★★★★★</span>
+          <small>25,000+ wearer reviews</small>
+        </div>
+        <div class="trust-services__metric">
+          <strong>98%</strong>
+          <small>Would buy again</small>
+        </div>
+      </div>
+      <div class="trust-services__benefits" aria-label="Our services">
+        <article class="service-item">
+          <span class="service-item__icon" aria-hidden="true"><i class="fa-solid fa-crown"></i></span>
+          <div><h3>Best quality</h3><p>Thoughtfully composed Eau de Parfum.</p></div>
+        </article>
+        <article class="service-item">
+          <span class="service-item__icon" aria-hidden="true"><i class="fa-solid fa-plane"></i></span>
+          <div><h3>Free shipping</h3><p>Complimentary delivery across India.</p></div>
+        </article>
+        <article class="service-item">
+          <span class="service-item__icon" aria-hidden="true"><i class="fa-solid fa-shield"></i></span>
+          <div><h3>Secure ordering</h3><p>Simple, protected reservation process.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ SIGNATURE / INTRO ============ -->
+  <section class="section signature" id="signature">
+    <div class="container text-center">
+      <p class="eyebrow reveal">What makes it yours</p>
+      <h2 class="display-head reveal">More than a perfume,<br /><em>it is a personal signature.</em></h2>
+      <p class="lead-copy mx-auto reveal">Silk Rose is a rich rose signature layered with warm woods and soft musk. Every accord is chosen to open beautifully, breathe through the day, and settle into a scent that reads as unmistakably you.</p>
+    </div>
+  </section>
+
+  <!-- ============ STATS BAND ============ -->
+  <section class="section stats">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-md-4 order-md-1">
+          <div class="stat reveal">
+            <span class="stat__num" data-count="50" data-suffix="+">50+</span>
+            <span class="stat__label">Precious ingredients</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="98" data-suffix="%">98%</span>
+            <span class="stat__label">Would buy again</span>
+          </div>
+        </div>
+        <div class="col-md-4 order-md-2">
+          <figure class="stats__bottle" data-fallback="bottle">
+            <img src="assets/silk-rose-edition.png"
+              alt="Skinn Silk Rose fragrance bottle" loading="lazy" onerror="this.style.display='none'" />
+          </figure>
+        </div>
+        <div class="col-md-4 order-md-3 text-md-end">
+          <div class="stat reveal">
+            <span class="stat__num" data-count="25" data-suffix="k+">25k+</span>
+            <span class="stat__label">Happy customers</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="12" data-suffix="">12</span>
+            <span class="stat__label">Fragrance collections</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FRAGRANCE LAYERS (olfactory pyramid) ============ -->
+  <section class="section layers" id="layers">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="eyebrow reveal">The scent, unfolding</p>
+        <h2 class="display-head reveal">Discover the <em>timeless layers</em></h2>
+        <p class="lead-copy mx-auto reveal">A fragrance reveals itself in three movements. Silk Rose is built as a true olfactory pyramid — read it from the first spray down to the dry-down.</p>
+      </div>
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <ol class="layer-list">
+            <li class="layer reveal">
+              <span class="layer__step">Top</span>
+              <div class="layer__body">
+                <h3>Rosy Opening</h3>
+                <p>Pink pepper, bergamot and bright petals — a luminous opening that lifts the moment you spray.</p>
+              </div>
+            </li>
+            <li class="layer reveal">
+              <span class="layer__step">Heart</span>
+              <div class="layer__body">
+                <h3>Velvet Heart</h3>
+                <p>Silk rose, peony and sheer jasmine settle in as the fragrance warms to your skin.</p>
+              </div>
+            </li>
+            <li class="layer reveal">
+              <span class="layer__step">Base</span>
+              <div class="layer__body">
+                <h3>Warm Trail</h3>
+                <p>Sandalwood, vanilla and soft musk — the lasting trail that stays close for hours.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="col-lg-6">
+          <figure class="l" data-fallback="water">
+            <img src="assets/combos.png" alt="A deep blue fragrance bottle suspended in clear turquoise water" loading="lazy" onerror="this.style.display='none'">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPOSE (interactive selector — signature element) ============ -->
+  <section class="section compose" id="compose">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="eyebrow reveal">Compose your bottle</p>
+        <h2 class="display-head reveal">Choose your <em>scent &amp; size</em></h2>
+        <p class="lead-copy mx-auto reveal">Pick a mood and a volume. The price updates live, and your selection carries straight into your reservation.</p>
+      </div>
+
+      <div class="composer" id="composer">
+        <div class="row g-0">
+          <!-- Visual -->
+          <div class="col-lg-5">
+            <figure class="composer__visual media-fill" data-fallback="bottle">
+              <img id="composeImg"
+                   src="assets/rose edition.png"
+                      alt="Silk Rose fragrance bottle" loading="lazy" onerror="this.style.display='none'" />
+                    <figcaption class="composer__badge" id="composeBadge">Silk Rose</figcaption>
+            </figure>
+          </div>
+          <!-- Controls -->
+          <div class="col-lg-7">
+            <div class="composer__panel">
+              <h3 class="composer__name" id="composeName">Silk Rose</h3>
+              <p class="composer__desc" id="composeDesc">A rich rose signature with warm woods — smooth, confident and made for evening.</p>
+
+              <div class="opt-group">
+                <span class="opt-label">Scent</span>
+                <div class="chips" role="radiogroup" aria-label="Choose scent">
+                  <button class="chip" role="radio" aria-checked="false" data-scent="sea">Breeze</button>
+                  <button class="chip" role="radio" aria-checked="false" data-scent="mist">Aura</button>
+                  <button class="chip is-active" role="radio" aria-checked="true" data-scent="onyx">Silk Rose</button>
+                </div>
+              </div>
+
+              <div class="opt-group">
+                <span class="opt-label">Size</span>
+                <div class="chips" role="radiogroup" aria-label="Choose size">
+                  <button class="chip" role="radio" aria-checked="false" data-size="30">30 ml</button>
+                  <button class="chip is-active" role="radio" aria-checked="true" data-size="50">50 ml</button>
+                  <button class="chip" role="radio" aria-checked="false" data-size="100">100 ml</button>
+                </div>
+              </div>
+
+              <div class="composer__foot">
+                <div class="price">
+                  <span class="price__now" id="priceNow">₹2,499</span>
+                  <span class="price__was" id="priceWas">₹3,199</span>
+                  <span class="price__save" id="priceSave">Save 22%</span>
+                </div>
+                <a href="#reserve" class="btn btn-gold btn-lg" id="composeCta">Reserve this selection</a>
+              </div>
+              <p class="composer__meta"><span id="composeMeta">Silk Rose · 50 ml · Eau de Parfum</span> — inclusive of all taxes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW TO USE ============ -->
+  <section class="section howto" id="howto">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="eyebrow reveal">Make it last</p>
+        <h2 class="display-head reveal">How to <em>wear it</em></h2>
+        <p class="lead-copy mx-auto reveal">Four small habits take Silk Rose from a few hours to all-day wear. Follow them in order.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <article class="step reveal">
+            <span class="step__no">01</span>
+            <h3>Prep the skin</h3>
+            <p>Spray onto clean, moisturised skin. Hydrated skin holds fragrance far longer than dry skin.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="step reveal">
+            <span class="step__no">02</span>
+            <h3>Find your pulse points</h3>
+            <p>Target wrists, the base of the throat and behind the ears — warmth here lifts the scent through the day.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="step reveal">
+            <span class="step__no">03</span>
+            <h3>Hold &amp; mist</h3>
+            <p>Keep the bottle 15–20 cm away and spray two to three times into the air and skin, not a soaking cloud.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <article class="step reveal">
+            <span class="step__no">04</span>
+            <h3>Don't rub it in</h3>
+            <p>Let it dry naturally. Rubbing your wrists together crushes the top notes and shortens the trail.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="reviews__heading">
+        <div>
+          <p class="eyebrow reveal">Honest words</p>
+          <h2 class="reviews__title reveal">Testimonials</h2>
+        </div>
+        <div class="reviews__controls" aria-label="Testimonial navigation">
+          <button class="reviews__arrow reviews__arrow--prev" type="button" data-review-prev aria-label="Previous testimonials">←</button>
+          <button class="reviews__arrow reviews__arrow--next" type="button" data-review-next aria-label="Next testimonials">→</button>
+        </div>
+      </div>
+      <div class="reviews__viewport">
+        <div class="reviews__track">
+          <blockquote class="quote reveal">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>"It opens so fresh and then turns warm on the skin. I've been stopped twice to ask what I'm wearing."</p>
+            <footer><span class="quote__avatar">AS</span><span><strong>Ananya S.</strong><small>Mumbai</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>"Silk Rose lasts through a full workday and leaves the most beautiful warm trail. The 100 ml is superb value."</p>
+            <footer><span class="quote__avatar">RK</span><span><strong>Rohan K.</strong><small>Bengaluru</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>"Bought it as a gift and ended up ordering one for myself. Clean, elegant, not overpowering."</p>
+            <footer><span class="quote__avatar">MD</span><span><strong>Meera D.</strong><small>Delhi</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>"The dry-down is gorgeous — driftwood and musk. Reads expensive without being loud."</p>
+            <footer><span class="quote__avatar">KV</span><span><strong>Karan V.</strong><small>Pune</small></span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESERVE / LEAD FORM ============ -->
+  <section class="section reserve" id="reserve">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="reserve__card">
+            <p class="eyebrow eyebrow--gold">Reserve at launch price</p>
+            <h2 class="reserve__title">Reserve your fragrance</h2>
+            <p class="reserve__sub">Leave your details and we'll hold your selection at the introductory price.</p>
+
+            <div class="selection-pill" id="selectionPill">
+              <span class="selection-pill__label">Your selection</span>
+              <span class="selection-pill__value" id="selectionValue">Silk Rose · 50 ml — ₹2,999</span>
+            </div>
+
+            <form id="leadForm" class="lead-form" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="fname">Full name</label>
+                  <input type="text" class="form-control" id="fname" name="fname" autocomplete="name" required placeholder="Your name" />
+                  <div class="invalid-feedback">Please tell us your name.</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="phone">Phone</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" inputmode="numeric" autocomplete="tel" required placeholder="10-digit mobile" pattern="[0-9]{10}" maxlength="10" />
+                  <div class="invalid-feedback">Enter a valid 10-digit mobile number.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" autocomplete="email" required placeholder="you@example.com" />
+                  <div class="invalid-feedback">Enter a valid email address.</div>
+                </div>
+                <input type="hidden" id="selectionField" name="selection" value="Silk Rose · 50 ml — ₹2,999" />
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="consent" name="consent" required />
+                    <label class="form-check-label" for="consent">Keep me posted on my reservation and Skinn launches.</label>
+                    <div class="invalid-feedback">Please tick to continue.</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gold btn-lg w-100">Reserve my bottle</button>
+                </div>
+              </div>
+              <p class="lead-form__fine">We respect your privacy. No spam — just your reservation and launch updates.</p>
+            </form>
+
+            <div class="lead-success" id="leadSuccess" hidden>
+              <div class="lead-success__tick" aria-hidden="true">✓</div>
+              <h3>You're on the list</h3>
+              <p id="successMsg">We've reserved your Silk Rose · 50 ml. Watch your inbox — we'll confirm shipping shortly.</p>
+              <button class="btn btn-outline-light" id="resetForm">Reserve another</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+ 
+    <div class="container footer__bar">
+      <span>© 2026 Skinn by Titan. All rights reserved.</span>
+      <span>Created by: Niyamatulla Ansari.</span>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <a href="#reserve" class="mobile-cta" id="mobileCta">Reserve — <strong id="mobileCtaPrice">₹2,499</strong></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
