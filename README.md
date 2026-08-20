@@ -36,15 +36,10 @@ Instead of creating a generic e-commerce page, the experience focuses on the fra
 ## 🖼️ Screenshots
 
 ### Hero
-![Hero Section](YOUR_HERO_SCREENSHOT_URL)
+![Hero Section](https://raw.githubusercontent.com/niyamat-ansari/skinn-perfume/refs/heads/main/screenshots/hero-section.png)
 
 ### Product Showcase
-![Product Showcase](YOUR_PRODUCT_SCREENSHOT_URL)
-
-### Mobile View
-![Mobile View](YOUR_MOBILE_SCREENSHOT_URL)
-
-> Replace the screenshot placeholders with your GitHub image URLs.
+![Product Showcase](https://github.com/niyamat-ansari/skinn-perfume/blob/main/screenshots/product-showcase.png?raw=true)
 
 ## 🛠️ Tech Stack
 
