@@ -1,6 +1,6 @@
-# SKINN Silk Rose — Premium Product Landing Page
+# SKINN Silk Rose — Premium Perfume Home Page Design
 
-> **Project Assignment for Acdyon Technologies — Frontend Challenge**
+> **Project Assignment for AcdyOn Technologies — Frontend Challenge**
 
 A premium, responsive landing page designed for **SKINN Silk Rose Eau de Parfum**, focusing on visual storytelling, product presentation, performance, and a clear conversion journey.
 
@@ -75,4 +75,4 @@ See [`DECISIONS.md`](DECISIONS.md) for the implementation decisions, time trade-
 
 **Niyamatulla Ansari**
 
-Built as a frontend placement assignment for **AcdyOn Technologies**.
+Built as an assignment for **AcdyOn Technologies**.
