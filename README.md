@@ -35,7 +35,7 @@ Instead of creating a generic e-commerce page, the experience focuses on the fra
 
 ## 🖼️ Screenshots
 
-### Hero
+### Hero Section
 ![Hero Section](https://raw.githubusercontent.com/niyamat-ansari/skinn-perfume/refs/heads/main/screenshots/hero-section.png)
 
 ### Product Showcase
@@ -75,4 +75,4 @@ See [`DECISIONS.md`](DECISIONS.md) for the implementation decisions, time trade-
 
 **Niyamatulla Ansari**
 
-Built as a frontend placement assignment for **Acdyon Technologies**.
+Built as a frontend placement assignment for **AcdyOn Technologies**.
